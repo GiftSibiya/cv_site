@@ -31,15 +31,23 @@
 /*  ============ HEADER END ============ */
 
 /* ============================== HERO SECTION ============================== */
-
+.Hero-Container {
+  height: 500px;
+  border: 2px solid purple;
+}
 /*  ============ HERO SECTION END ============ */
 
 /* ============================== PACKAGE SECTION ============================== */
-
+.Package-Container {
+  height: 1600px;
+}
 /*  ============ PACKAGE SECTION END ============ */
 
 /* ============================== WRITING SERVICES ============================== */
-
+.Services-Container {
+  height: 1000px;
+  border: 2px solid pink;
+}
 /*  ============ WRITING SERVICES END ============ */
 
 /* ============================== FOOTER ============================== */

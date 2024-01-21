@@ -1,7 +1,11 @@
+/// DEPENDENCY IMPORT ///
+
 import React from "react";
 
+///--///
+
 function PackageSection() {
-  return <div>PackageSection</div>;
+  return <section className="Package-Container"></section>;
 }
 
 export default PackageSection;
