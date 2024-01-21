@@ -1,19 +1,51 @@
+* {
+  margin: 0;
+}
+
 /* ============================== HOME PAGE ============================== */
 
 /*  ============ HOME PAGE END ============ */
 
 /* ============================== HEADER ============================== */
-
+.Header-Container {
+  height: 160px;
+  border: 2px solid red;
+}
+.Header-Contact {
+  border: 2px solid blue;
+  height: 80px;
+}
+.Header-Navbar {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid green;
+  height: 80px;
+}
+.Header-Logo {
+  position: relative;
+  top: -30px;
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+}
 /*  ============ HEADER END ============ */
-/* ============================== HOME PAGE ============================== */
 
-/*  ============ HOME PAGE END ============ */
-/* ============================== HOME PAGE ============================== */
+/* ============================== HERO SECTION ============================== */
 
-/*  ============ HOME PAGE END ============ */
-/* ============================== HOME PAGE ============================== */
+/*  ============ HERO SECTION END ============ */
 
-/*  ============ HOME PAGE END ============ */
-/* ============================== HOME PAGE ============================== */
+/* ============================== PACKAGE SECTION ============================== */
 
-/*  ============ HOME PAGE END ============ */
+/*  ============ PACKAGE SECTION END ============ */
+
+/* ============================== WRITING SERVICES ============================== */
+
+/*  ============ WRITING SERVICES END ============ */
+
+/* ============================== FOOTER ============================== */
+.Footer-Container {
+  height: 150px;
+  border: 2px solid red;
+}
+
+/*  ============ FOOTER END ============ */
