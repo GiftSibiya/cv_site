@@ -8,7 +8,10 @@
 
 /* ============================== HEADER ============================== */
 .Header-Container {
+  position: fixed;
+  width: 100vw;
   height: 160px;
+  background-color: white;
   border: 2px solid red;
 }
 .Header-Contact {
@@ -31,7 +34,7 @@
 
 /* ============================== HERO SECTION ============================== */
 .Hero-Container {
-  padding-top: 120px;
+  padding-top: 200px;
   height: 600px;
   border: 2px solid purple;
 }
@@ -65,7 +68,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1600px;
+  height: 1200px;
 }
 
 .Package-Tagline {
@@ -73,7 +76,7 @@
   margin-bottom: 20px;
 }
 .Package-Paragraph {
-  margin-top: 20px;
+  margin-top: 30px;
   width: 80vw;
   text-align: center;
 }
@@ -106,8 +109,39 @@
 
 /* ============================== WRITING SERVICES ============================== */
 .Services-Container {
-  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
   border: 2px solid pink;
+}
+
+.Services-Tagline {
+  font-size: 2.5rem;
+  padding-left: 190px;
+}
+.Services-Paragaph {
+  margin-top: 50px;
+  text-align: center;
+}
+.Writing-steps {
+  margin-top: 30px;
+  justify-content: space-between;
+  width: 70vw;
+  border: 2px solid purple;
+  display: flex;
+}
+.Services-Footer {
+  width: 80vw;
+}
+.Services-Footer__paragraph {
+  text-align: start;
+  margin-top: 80px;
+  font-size: 2.5rem;
+}
+.Services-Paragaph2 {
+  font-size: 17px;
+  width: 80vw;
 }
 /*  ============ WRITING SERVICES END ============ */
 
